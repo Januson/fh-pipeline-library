@@ -2,7 +2,7 @@ package org.feedhenry
 
 import com.cloudbees.groovy.cps.NonCPS
 
-@Grab('org.codehaus.groovy:groovy-xmlrpc:0.8')
+//@Grab('org.codehaus.groovy:groovy-xmlrpc:0.8')
 import groovy.net.xmlrpc.XMLRPCServerProxy
 
 class Koji implements Serializable {
